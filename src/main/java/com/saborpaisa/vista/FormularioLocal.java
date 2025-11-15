@@ -193,10 +193,11 @@ public class FormularioLocal extends JFrame {
         panelBusqueda.add(txtBuscar);
         btnBuscar = new JButton("🔍 Buscar");
         btnBuscar.setBackground(new Color(241, 196, 15));
+        btnBuscar.setForeground(Color.BLACK);
         panelBusqueda.add(btnBuscar);
         btnListar = new JButton("📋 Listar Todos");
         btnListar.setBackground(new Color(46, 204, 113));
-        btnListar.setForeground(Color.WHITE);
+        btnListar.setForeground(Color.BLACK);
         panelBusqueda.add(btnListar);
         
         panel.add(panelBusqueda, BorderLayout.NORTH);
@@ -236,7 +237,7 @@ public class FormularioLocal extends JFrame {
         btnGuardar = new JButton("💾 Guardar");
         btnGuardar.setFont(new Font("Arial", Font.BOLD, 14));
         btnGuardar.setBackground(new Color(46, 204, 113));
-        btnGuardar.setForeground(Color.WHITE);
+        btnGuardar.setForeground(Color.BLACK);
         btnGuardar.setPreferredSize(new Dimension(140, 40));
         panel.add(btnGuardar);
         
@@ -244,7 +245,7 @@ public class FormularioLocal extends JFrame {
         btnActualizar = new JButton("✏️ Actualizar");
         btnActualizar.setFont(new Font("Arial", Font.BOLD, 14));
         btnActualizar.setBackground(new Color(52, 152, 219));
-        btnActualizar.setForeground(Color.WHITE);
+        btnActualizar.setForeground(Color.BLACK);
         btnActualizar.setPreferredSize(new Dimension(140, 40));
         panel.add(btnActualizar);
         
@@ -252,7 +253,7 @@ public class FormularioLocal extends JFrame {
         btnEliminar = new JButton("🗑️ Eliminar");
         btnEliminar.setFont(new Font("Arial", Font.BOLD, 14));
         btnEliminar.setBackground(new Color(231, 76, 60));
-        btnEliminar.setForeground(Color.WHITE);
+        btnEliminar.setForeground(Color.BLACK);
         btnEliminar.setPreferredSize(new Dimension(140, 40));
         panel.add(btnEliminar);
         
@@ -260,7 +261,7 @@ public class FormularioLocal extends JFrame {
         btnLimpiar = new JButton("🧹 Limpiar");
         btnLimpiar.setFont(new Font("Arial", Font.BOLD, 14));
         btnLimpiar.setBackground(new Color(149, 165, 166));
-        btnLimpiar.setForeground(Color.WHITE);
+        btnLimpiar.setForeground(Color.BLACK);
         btnLimpiar.setPreferredSize(new Dimension(140, 40));
         panel.add(btnLimpiar);
         
