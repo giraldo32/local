@@ -1,0 +1,6 @@
+com\saborpaisa\main\Aplicacion.class
+com\saborpaisa\vista\FormularioLocal$1.class
+com\saborpaisa\vista\FormularioLocal.class
+com\saborpaisa\conexion\Conexion.class
+com\saborpaisa\modelo\Local.class
+com\saborpaisa\dao\LocalDAO.class
